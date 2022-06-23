@@ -3,12 +3,85 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="D:\my lecture html\tables-in-tables-gurumurthi97\styles.css">
     <title>Table</title>
-    <link rel="stylesheet" href="style.css" />
+    
   </head>
   <body>
-    <table style="width: 100%; height: 100%">
-      <!-- Your code here -->
+     <table  style="width:100%;height:100%;display: flex;
+  ; border: 2px solid rgba(0, 0, 0, 0.8);;
+    justify-content: center;"> 
+      <tr style="">
+        <td style="border:1px solid black;">
+      
+
+      <table style="border: 1px solid black;width:100%">
+        <tr>
+          <th colspan="2" style="border: 1px solid black;font-weight: bolder;">
+            Nested Table 2
+            </th>
+        </tr>
+          <tr style="border: 1px solid black;">
+          <td style="border: 1px solid black;font-weight: bolder;text-align: center;">Coloum 1</td>
+          <td style="border: 1px solid black;font-weight: bolder;text-align: center;">Coloum 2</td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid black;text-align: center;">abc</td>
+            <td style="border: 1px solid black;text-align: center;">def</td>
+          </tr>
+      </table>
+    </td>
+    <td style="border: 1px solid black;">
+      <table style="border: 1px solid black;width:100%  ">
+            <tr>
+              <th style="border: 1px solid black;text-align:center;">Nested Table 1</th>
+            </tr>
+            <tr>
+              <td style="border: 1px solid black;text-align: center;">
+              <ul>
+                 <li>List item</li>
+                 <li>List item</li>
+                 <li>List item</li>
+              </ul>
+            </td>
+            </tr>
+      </table>
+    <!-- </table> -->
+  </td>
+</tr>
+<tr> 
+  <td style="border: 1px solid black;">
+         <table style="border:1px solid black;width:100%">
+           <tr >
+            <th colspan="2" style="border:1px solid black;text-align: center;">
+                 Nested Table 3
+            </th>
+
+           </tr>
+           <tr>
+            <td style="border:1px solid black">
+              <a href="Nested Table ">Nested Table</a>
+            </td>
+            <td style="border:1px solid black">
+              Demo Continued
+            </td>
+           </tr>
+      </table>
+    </td>
+      <td style="border:1px solid black;text-align: center;">
+      <table style="border:1px solid black;width:100%">
+            <tr >
+              <th style="border:1px solid black">Nested Table 4</th>
+
+            </tr>
+            <tr>
+              <td style="border:1px solid black;text-align: center;color: white;background-color: black;">HTML</td>
+            </tr>
+
+      </table>
+</td>
+    </tr>
+
     </table>
   </body>
 </html>
